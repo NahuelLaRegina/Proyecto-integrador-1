@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@1,100&family=Shantell+Sans&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*  INICIO */
+.inicio{
+    background-image: url(IMG/plantillas-para-tarjetas-de-presentacion-psd.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido header{
+    padding: 30px;
+}
+/* MENU */
+.inicio .contenido header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* ****** */
+.inicio .contenido header .barra{
+    position: fixed;
+    background-color: blue;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido header .barra:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido.info{
+    padding-bottom: 130px;
+}
+.inicio .contenido .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+
+.inicio .contenido .info .redes a:hover{
+    color: #fff;
+    background-color:blue;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido .foto{
+    position: relative;
+}
+.inicio .contenido .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    position: absolute;
+    left: 50%;
+    top: -0px;
+    transform: translateX(-50%);
+}
+
+.titulo-seccion{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 35px;
+}
+/* SOBRE MI */
+.sobremi{
+    background-color: #e6e6e6;
+    margin-top: 250px;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+
+    font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+    color: blue;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    font-size: 25px;
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: blue;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/* HABILIDADES */
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background-image: url(IMG/plantillas-para-tarjetas-de-presentacion-psd.jpg);
+    background-size: cover;
+
+    background-position: center center;
+    color: #fff;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+    font-size: 15px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .especialidad{
+
+    list-style-type: square;
+    display:inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+       
+}
+
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid rgb(43, 255, 0);
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* EXPERIENCIA */
+.experiencia{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.experiencia .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.experiencia .contenido h3{
+    font-size: 30px;
+}
+.experiencia .contenido .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.experiencia .contenido .info .col{
+    width: 45%;
+}
+.experiencia .contenido .info .col .titulo{
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 60%;
+    width: 95%;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    padding: 10px;
+
+}
+.experiencia .contenido .info .col table{
+    margin-top: 30px;
+    width: 150%;
+    margin-left: 45%;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+.experiencia .contenido .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.experiencia .contenido .info .col table h4{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.experiencia .contenido .info .col table h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.experiencia .contenido .info .col table p{
+    font-size: 20px;
+}
+.experiencia .contenido .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+    
+}
+/* CONTACTO */
+.contacto{
+    
+    background-color: #202020;
+   text-align: center;
+    color: #e6e6e6;
+    font-size: 15px;
+    
+    
+}
+
+
+
+.contacto .contenido-seccion .fila .col h2{
+    color: blue;
+   text-align: center;
+    
+
+}
+
+
+.contacto .redes .titulo-redes{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.contacto .contenido-seccion .redes a{
+    display:inline-block;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 40%;
+    width: 45px;
+    height: 40px;
+    line-height: 45px;
+    margin:1px;
+   
+}
+
+.contacto .contenido-seccion .fila .redes a:hover{
+    color: #fff;
+    background-color:blue;
+    box-shadow: 0 0 20px #fff;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 45px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
